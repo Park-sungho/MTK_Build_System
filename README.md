@@ -11,5 +11,5 @@ How to use the build script.
   <th>Comments</th>
   </tr>
   <tr><td>2017.07.22</td>
-  <td>Fix the bug</td></tr>
+  <td>Fix the bug about the project list.</td></tr>
   </table>
