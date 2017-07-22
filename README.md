@@ -1,5 +1,5 @@
 
 How to use the build script.
-  <tr>
+  <tr><td>
   source ./build_script
-  </tr>
+  </td></tr>
