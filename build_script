@@ -21,7 +21,18 @@ build_project_name=
 project_filename=model_list.txt
 options=
 
+function deleteProjects {
+    for (( i=0; i<=${#options[@]}; i++ ))
+    do
+        options=("${options:i}")
+    done
+}
+
 function loadProjectData {
+    if [ ${#options[@]} -gt 1 ] ; then
+        deleteProjects
+    fi
+
     for line in `cat $project_filename`
     do
         options=(${options[@]} ${line})
